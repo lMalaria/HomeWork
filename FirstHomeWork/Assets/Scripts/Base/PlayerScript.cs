@@ -23,12 +23,14 @@ public class PlayerScript : MonoBehaviour {
 
     private float sensitivity;
 
+    public int hp;
 
     void Start ()
     {
         speed = 5;
         damping = 5;
         sensitivity = 2;
+        hp = 0;
     }
 	
 	void Update ()
